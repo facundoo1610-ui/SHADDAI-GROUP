@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>SHADDAI GROUP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>SHADDAI GROUP</h1>
+  <p>Servicios financieros y tecnológicos</p>
+</header>
+
+<main class="productos">
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d">
+    <h2>Asesoría Financiera</h2>
+    <p class="precio">$50</p>
+    <button onclick="agregar('Asesoría Financiera', 50)">Agregar</button>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c">
+    <h2>Implementación Tecnológica</h2>
+    <p class="precio">$120</p>
+    <button onclick="agregar('Implementación Tecnológica', 120)">Agregar</button>
+  </div>
+
+</main>
+
+<footer>
+  <button class="whatsapp" onclick="finalizar()">Finalizar compra por WhatsApp</button>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
